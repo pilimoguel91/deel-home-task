@@ -1,24 +1,12 @@
-#postgres-pim:
-#  outputs:
-#    dev:
-#      type: postgres
-#      host: localhost
-#      user: pilarmoguel
-#      password: <password>
-#      port: 5431
-#      dbname: pilarmoguel
-#      schema: dbt_pim
-#      threads: 4
-#  target: dev
-
-databricks-pim:
-   target: databricks_job
-   outputs:
-     databricks_job:
-      type: databricks
-      method: http
-      auth_type: oauth
-      schema: "deel_eor"
-      host: "adb-8786953221073452.12.azuredatabricks.net"
-      http_path: "sql/protocolv1/o/8786953221073452/0701-124211-umlrtdch"
-      token: "dbtu_9jpvcvM9rskNEH4pg1nE5jobFkF7HhZeo_OqtmOxsO216IchGo"
+postgres-pim:
+  outputs:
+    dev:
+      type: postgres
+      host: localhost
+      user: pilarmoguel
+      password: <password>
+      port: 5431
+      dbname: pilarmoguel
+      schema: dbt_pim
+      threads: 4
+  target: dev
