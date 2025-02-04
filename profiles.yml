@@ -1,15 +1,15 @@
-postgres-pim:
-  outputs:
-    dev:
-      type: postgres
-      host: localhost
-      user: pilarmoguel
-      password: <password>
-      port: 5431
-      dbname: pilarmoguel
-      schema: dbt_pim
-      threads: 4
-  target: dev
+#postgres-pim:
+#  outputs:
+#    dev:
+#      type: postgres
+#      host: localhost
+#      user: pilarmoguel
+#      password: <password>
+#      port: 5431
+#      dbname: pilarmoguel
+#      schema: dbt_pim
+#      threads: 4
+#  target: dev
 
 databricks-pim:
    target: databricks_job
