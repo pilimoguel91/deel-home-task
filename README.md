@@ -1,5 +1,21 @@
-# 🚧 This repo has been archived
-## 👇🏻 Please use one of the following options instead
-- I want a[ dbt-focused Jaffle Shop project](https://jaffle.sh/) that works with dbt Cloud or dbt Core with any adapter or setup.
-- I want a [fork of the repo that was here](https://github.com/meltano/jaffle-shop-template) maintained by Meltano.
-- I want a [community-maintained DuckDB + dbt + Evidence focused project](https://github.com/gwenwindflower/octocatalog) stewarded by the original author of this repo [@gwenwindflower](https://github.com/gwenwindflower).
+#  Deel Home Task
+## Important
+
+- For easier task development, I did the task #4 prior to task #2, so queries from task #2 are based on the analytical layers created on task #4 
+- All the code used for the 3 firsts tasks are on this repo.
+- Presentation can be found [here]().
+
+
+### Task #1
+
+**Objective**: Evaluate the ability to analyze and interpret key metrics from operational data.
+**Scenario**: Analyze the activation process for contracts. Highlight bottlenecks and provide
+actionable insights.
+**Instructions**:
+- Calculate % contracts where the Start date was delayed.
+- Break down into the top reasons why these contracts were delayed.
+- Draw some hypothesis on why contracts might be delayed and suggest actionable
+recommendations to improve the onboarding timeline.
+
+#### Solution
+- Code is under [/analyses/task_1](/analyses/task_1)

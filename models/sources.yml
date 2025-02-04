@@ -1,0 +1,17 @@
+version: 2
+
+sources:
+  - name: pilarmoguel
+    schema: dbt_pim
+    tables:
+      - name: eor_contracts_activated
+        identifier: eor_contracts_activated
+        description: Activated EOR contacts
+        columns:
+          - name: 'Contract id'
+            tests:
+              - not_null
+          - name: 'Organization ID'
+            tests:
+              - not_null
+

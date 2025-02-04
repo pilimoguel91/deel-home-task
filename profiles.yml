@@ -1,9 +1,12 @@
-duckdb:
+postgres-pim:
   outputs:
     dev:
-      type: duckdb
-      path: "{{ env_var('JAFFLE_DB_PATH', './reports/jaffle_shop.duckdb') }}"
-      database: "{{ env_var('JAFFLE_DB_NAME', 'jaffle_shop') }}"
-      schema: "{{ env_var('JAFFLE_TARGET_SCHEMA', 'analytics') }}"
+      type: postgres
+      host: localhost
+      user: pilarmoguel
+      password: <password>
+      port: 5431
+      dbname: pilarmoguel
+      schema: dbt_pim
       threads: 4
   target: dev

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="63c254bb-3ded-4adc-8a51-115ff0d55441" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/analyses/task_2/1_average_time_region.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analyses/task_2/2_contracts_more_14_days.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analyses/task_2/3_avg_percentage_delayed_week.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/analysis/analysis_agg_layer.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/analysis/analysis_status_check.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/analysis/analysis_times_check.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/sources.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/src/src_eor_contracts.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/trans/cleansed_eor_contracts.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/trans/trans_eor_contracts.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seeds/eor_contracts_activated.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.devcontainer/devcontainer.json" beforeDir="false" afterPath="$PROJECT_DIR$/.devcontainer/devcontainer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.user.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.user.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/extensions.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_project.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dbt_project.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jaffle-data/raw_customers.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jaffle-data/raw_items.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jaffle-data/raw_orders.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jaffle-data/raw_products.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jaffle-data/raw_stores.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jaffle-data/raw_supplies.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/macros/cents_to_dollars.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/meltano.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/marts/__models.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/marts/customer_status_histories.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/marts/customers.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/marts/orders.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/metrics/metrics.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/staging/__models.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/staging/__sources.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/staging/stg_customers.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/staging/stg_locations.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/staging/stg_order_items.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/staging/stg_orders.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/staging/stg_products.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/staging/stg_supplies.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages.yml" beforeDir="false" afterPath="$PROJECT_DIR$/packages.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profiles.yml" beforeDir="false" afterPath="$PROJECT_DIR$/profiles.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/.evidence/customization/custom-formatting.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/pages/analysis/seasonality-investigation.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/pages/customers/[customer].md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/pages/customers/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/pages/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/pages/stores/[city].md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/pages/stores/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/snapshots/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/analyses/task_1/analytics_task.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2sWs3BxBuIRV5EeNH6IjcDuVCus" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/analyses/task_2" />
+      <recent name="$PROJECT_DIR$/models/trans" />
+      <recent name="$PROJECT_DIR$/models" />
+      <recent name="$PROJECT_DIR$/seeds" />
+      <recent name="$PROJECT_DIR$/models/staging" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="deel-home-task" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.11 (deel-home-task)" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="63c254bb-3ded-4adc-8a51-115ff0d55441" name="Changes" comment="" />
+      <created>1738582464127</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1738582464127</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
