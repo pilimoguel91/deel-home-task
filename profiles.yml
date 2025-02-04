@@ -17,6 +17,8 @@ databricks-pim:
      databricks_job:
       type: databricks
       method: http
+      user: "pilar.moguel@runtastic.com"
+      password: <Marcatextos@didas>
       schema: "deel_eor"
       host: "adb-8786953221073452.12.azuredatabricks.net"
       http_path: "sql/protocolv1/o/8786953221073452/0701-124211-umlrtdch"
