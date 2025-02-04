@@ -1,9 +1,10 @@
 #  Deel Home Task
 ## Important
 
-- For easier task development, I did the task #4 prior to task #2, so queries from task #2 are based on the analytical layers created on task #4 
-- All the code used for the 3 firsts tasks are on this repo.
-- Presentation can be found [here]().
+- Jupyter Notebook done for Task #1 is [here](Analytics_Task.ipynb)
+- For easier task development, I did the task #3 prior to task #2, so queries from task #2 are based on the analytical layers created on task #3 
+- All the code used for the firsts 3 tasks is on this repo.
+- Presentation can be found [here](Analytics_Task.pdf).
 
 
 ### Task #1
